@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    int sum = 0;
+    cout << "Enter numbers (end with -1): ";
+    while(true) {
+        cin >> n;
+        if(n == -1) break;
+        if(n < 0) continue;
+        sum += n;
+    }
+    cout << "Sum of non-negative numbers: " << sum;
+    return 0;
+}
+
+OUTPUT
+Enter numbers (end with -1): 5 -3 4 -2 3 -1
+Sum of non-negative numbers: 12
