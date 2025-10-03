@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    bool a = true;
+    cout << "Enter a number: ";
+    cin >> n;
+    if(n <= 1) a = false;
+    else {
+        for(int i = 2; i <= n/2; i++) {
+            if(n % i == 0) {
+                a = false;
+                break;
+            }
+        }
+    }
+
+    if(a) cout << n << " is prime";
+    else cout << n<< " is not prime";
+    return 0;
+}
