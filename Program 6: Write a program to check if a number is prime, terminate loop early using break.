@@ -19,3 +19,8 @@ int main() {
     else cout << n<< " is not prime";
     return 0;
 }
+
+
+OUTPUT 
+Enter a number:13
+13 is prime
