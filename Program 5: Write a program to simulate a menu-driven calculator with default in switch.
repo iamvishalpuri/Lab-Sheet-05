@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main() {
+    double n1,n2;
+    char op;
+    cout<<"Enter two numbers: ";
+    cin>>n1>>n2;
+    cout<<"Enter operation (+, -, *, /): ";
+    cin>>op;
+    switch(op) {
+        case '+':
+            cout<<"Result: "<< n1+n2;
+            break;
+        case '-':
+            cout <<"Result: "<< n1-n2;
+            break;
+        case '*':
+            cout <<"Result: " << n1*n2;
+            break;
+        case '/':
+            cout <<"Result: " << n1/n2;
+            break;
+        default:
+            cout << "Invalid operation";
+    }
+    return 0;
+}
