@@ -25,3 +25,9 @@ int main() {
     }
     return 0;
 }
+
+
+OUTPUT
+Enter two numbers:10 5
+Enter operation (+, -, *, /):+
+Result: 15
