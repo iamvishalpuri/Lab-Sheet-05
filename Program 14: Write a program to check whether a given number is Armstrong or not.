@@ -14,3 +14,7 @@ int main() {
     else cout << "Not an Armstrong number";
     return 0;
 }
+
+OUTPUT 
+Enter a number: 153
+Armstrong number
