@@ -13,3 +13,8 @@ int main() {
     cout << "Factorial: " << factorial;
     return 0;
 }
+
+
+OUTPUT
+Enter a number: 5
+Factorial: 120
