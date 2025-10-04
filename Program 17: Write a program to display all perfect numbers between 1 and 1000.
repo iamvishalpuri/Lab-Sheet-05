@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "Perfect numbers between 1 and 1000: ";
+    for(int n = 1; n <= 1000; n++) {
+        int sum = 0;
+        for(int i = 1; i < n; i++) {
+            if(n % i == 0) sum += i;
+        }
+        if(sum == n) cout << n << " ";
+    }
+    return 0;
+}
+
+OUTPUT
+Perfect numbers between 1 and 1000: 6 28 496 
