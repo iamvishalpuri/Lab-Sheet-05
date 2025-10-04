@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "Strong numbers between 1 and 500: ";
+    for (int n = 1; n <= 500; n++) {
+        int og = n; 
+        int temp = num;     
+        int sum = 0;  
+        while (temp > 0) {
+            int digit = temp % 10;
+            int fact = 1;    
+            for (int i = 1; i <= digit; i++) {
+                fact = fact * i;
+            }
+            sum = sum + fact;    
+            temp = temp / 10;    
+        }
+        if (sum == og ) {
+            cout << og << " ";
+        }
+    }
+    return 0;
+}
+
+OUTPUT
+Strong numbers between 1 and 500: 1 2 145 
