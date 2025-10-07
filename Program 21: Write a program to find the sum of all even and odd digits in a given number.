@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    int even = 0, odd = 0;
+    cout << "Enter a number: ";
+    cin >> n;
+    while(num > 0) {
+        int digit = n % 10;
+        if(digit % 2 == 0) even += digit;
+        else odd += digit;
+        num /= 10;
+    }
+    cout << "Sum of even digits: " << even << endl;
+    cout << "Sum of odd digits: " << odd ;
+    return 0;
+}
+
+OUTPUT
+Enter a number: 12345
+Sum of even digits: 6
+Sum of odd digits: 9
