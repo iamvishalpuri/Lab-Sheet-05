@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "Harshad numbers between 1 and 100: ";
+    for(int n = 1; n <= 100; n++) {
+        int temp = n;
+        int sum = 0;
+        while(temp > 0) {
+            sum += temp % 10;
+            temp /= 10;
+        }
+        if(sum > 0 && n % sum == 0) cout << n << " ";
+    }
+    return 0;
+}
+
+OUTPUT 
+Harshad numbers between 1 and 100: 1 2 3 4 5 6 7 8 9 10 12 18 20 21 24 27 30 36 40 42 45 48 50 54 60 63 70 72 80 81 84 90 99 100 
