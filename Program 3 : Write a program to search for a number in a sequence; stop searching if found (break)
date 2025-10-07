@@ -17,3 +17,7 @@ int main() {
     if(!found) cout << "Number not found";
     return 0;
 }
+
+OUTPUT
+Enter number to search: 5
+Number found at position 5
