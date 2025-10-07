@@ -11,8 +11,8 @@ Academic Session: 2025-26
 Subject Name : Programming Paradigms Using 'C++' Lab 
 
 Subject Code : BCA101 P
-C++ Lab Sheet 5
 
+C++ Lab Sheet 5
 
 Date : 01 October 2025
 
