@@ -1,6 +1,6 @@
 COER University 
 
-Department of Computer Science and Applications
+Department of Computer Science and Applications \n
 Programme Name : BCA
 Semester & Section : 1st Sem - "C"
 Academic Session: 2025-26
