@@ -13,3 +13,7 @@ int main() {
     else cout << "Not a Harshad number";
     return 0;
 }
+
+OUTPUT 
+Enter a number: 18
+Harshad Number 
